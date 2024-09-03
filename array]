@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Declaring an array of integers with size 5
+    int numbers[5];
+
+    // Initializing an array with values
+    int scores[5] = {90, 85, 78, 92, 88};
+
+    // Printing the elements of the 'scores' array
+    for (int i = 0; i < 5; i++) {
+        printf("Score %d: %d\n", i + 1, scores[i]);
+    }
+
+    return 0;
+}
+
